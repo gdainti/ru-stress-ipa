@@ -1,0 +1,13 @@
+{
+	"name": "ru-stress-ipa",
+	"private": true,
+	"type": "module",
+	"description": "Russian stress marks (ноги́) to syllable-dotted IPA, so Azure TTS reads homographs right",
+	"scripts": {
+		"test": "node --test ru-ipa.test.ts",
+		"say": "node --env-file=.env say.ts"
+	},
+	"engines": {
+		"node": ">=22.18"
+	}
+}
